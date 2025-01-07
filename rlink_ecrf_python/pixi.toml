@@ -1,0 +1,12 @@
+[project]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "rlink_ecrf_python"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "==3.11"
+pandas = ">=2.2.3,<3"
