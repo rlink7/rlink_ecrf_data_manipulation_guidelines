@@ -14,6 +14,7 @@ Content
 
 ```
 documents/
+├── dataset-clinical_version-2_description.pdf: Annotated eCRF
 ├── dataset-clinical_version-2_description_file-information.xlsx: Variable description and mapping to file
 ├── rlink_webinar_clinical-data_manipulation.pdf: Presentation
 └── sop_eCRF.docx: Standard Operating Procedures (Detailed information)
