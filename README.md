@@ -24,7 +24,7 @@ python/
 ├── usecase1_extract_demographicSmokingLithemiaMarsResponse.py: use case in python
 └── utils_build_description_file.py
 
-R
+R/
 ├── usecase1_extract_demographicSmokingLithemiaMarsResponse_classic.R: use case in classic R
 └── usecase1_extract_demographicSmokingLithemiaMarsResponse_tidyverse.R: use case in R with tidyverse
 ```
@@ -56,6 +56,7 @@ pixi install
 cd python
 pixi shell
 ```
+
 
 ## Running R code
 
