@@ -62,5 +62,5 @@ pixi shell
 
 ## Running R code
 
-Install [studio](https://posit.co/download/rstudio-desktop/)
+Install [RStudio](https://posit.co/download/rstudio-desktop/)
 
