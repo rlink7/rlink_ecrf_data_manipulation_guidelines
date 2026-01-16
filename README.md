@@ -33,20 +33,17 @@ R
 ## Running Python code
 
 1. Install Pixi
+   
+   Linux & macOS
+   ```
+   curl -fsSL https://pixi.sh/install.sh | bash
+   ```
+   Windows
+   ```
+   iwr -useb https://pixi.sh/install.ps1 | iex
+   ```
 
-Linux & macOS
-
-```
-curl -fsSL https://pixi.sh/install.sh | bash
-```
-
-Windows
-
-```
-iwr -useb https://pixi.sh/install.ps1 | iex
-```
-
-2. Go to the Python directory, then install the required Python packages (only the first time):
+3. Go to the Python directory, then install the required Python packages (only the first time):
 
 ```
 cd python
