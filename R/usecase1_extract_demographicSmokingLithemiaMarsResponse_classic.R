@@ -1,6 +1,6 @@
 library(openxlsx)
 
-# %% Set path to inout data and output results according to your local configuration
+# %% Set path to input data and output results according to your local configuration
 
 INPUT <- "/home/ed203246/git/rlink_ecrf_data_manipulation_guidelines/data/"
 OUTPUT <- "/home/ed203246/git/rlink_ecrf_data_manipulation_guidelines/outputs/"
