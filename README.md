@@ -24,7 +24,7 @@ python/
 ├── usecase1_extract_demographicSmokingLithemiaMarsResponse.py: use case in python
 └── utils_build_description_file.py
 
-R
+R/
 ├── usecase1_extract_demographicSmokingLithemiaMarsResponse_classic.R: use case in classic R
 └── usecase1_extract_demographicSmokingLithemiaMarsResponse_tidyverse.R: use case in R with tidyverse
 ```
@@ -33,20 +33,17 @@ R
 ## Running Python code
 
 1. Install Pixi
+   
+   Linux & macOS
+   ```
+   curl -fsSL https://pixi.sh/install.sh | bash
+   ```
+   Windows
+   ```
+   iwr -useb https://pixi.sh/install.ps1 | iex
+   ```
 
-Linux & macOS
-
-```
-curl -fsSL https://pixi.sh/install.sh | bash
-```
-
-Windows
-
-```
-iwr -useb https://pixi.sh/install.ps1 | iex
-```
-
-2. Go to the Python directory, then install the required Python packages (only the first time):
+3. Go to the Python directory, then install the required Python packages (only the first time):
 
 ```
 cd python
@@ -60,7 +57,8 @@ cd python
 pixi shell
 ```
 
+
 ## Running R code
 
-Install [studio](https://posit.co/download/rstudio-desktop/)
+Install [RStudio](https://posit.co/download/rstudio-desktop/)
 
